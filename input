@@ -1,0 +1,11 @@
+(let (z 1
+      a (fn (f) (f 1)))
+  (let (x 2
+        y (fn (a) (+ x z a)))
+    (print (a y))))
+
+let z = 1
+    a = (f) -> f(1)
+  let x = 2
+      y = (a) -> (+ x z a)
+    print a(y)
